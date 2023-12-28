@@ -16,7 +16,7 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 
 ## Watermarked Audio Samples
 Audio samples are taken from the VCTK corpus and FMA corpus. The capacity of **IDEAW** achieves 46 bits per second (maintaining SNR at about 30 dB).
-What can a 46-bit watermark accomplish?
+* What can a 46-bit watermark accomplish?
 
 <script>
 function pauseOthers(ele) {
@@ -45,7 +45,7 @@ Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) 
 
 
 ## Waveform Samples
-Waveforms of watermared audios and residual to host audios.
+Waveforms of watermared audios and residual to host audios. The size of the embedded watermark defaults to 46 bits.
 ![Model Architecture ](assets/wmd_waveforms/test.png)
 <p align="center">(i) SNR=??</p>
 ![Model Architecture ](assets/wmd_waveforms/test.png)
