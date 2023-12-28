@@ -11,7 +11,7 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 </p>
 
 ![Model Architecture ](assets/IDEAW.png)
-<p align="center">Figure.1 The Architecture of IDEAW.</p>
+<p align="center">The Architecture of IDEAW.</p>
 <p>&nbsp;</p> 
 
 ## Watermarked Audio Samples
@@ -46,10 +46,15 @@ Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) 
 
 ## Waveform Samples
 Waveforms of watermared audios and residual to host audios.
-<img src="assets/wmd_waveforms/test.png" width = 600 /> 
-<img src="assets/wmd_waveforms/test.png" width = 600 /> 
-<img src="assets/wmd_waveforms/test.png" width = 600 /> 
-<img src="assets/wmd_waveforms/test.png" width = 600 /> 
+![Model Architecture ](assets/wmd_waveforms/test.png)
+<p align="center">(i) SNR=??</p>
+![Model Architecture ](assets/wmd_waveforms/test.png)
+<p align="center">(ii) SNR=??</p>
+![Model Architecture ](assets/wmd_waveforms/test.png)
+<p align="center">(iii) SNR=??</p>
+![Model Architecture ](assets/wmd_waveforms/test.png)
+<p align="center">(iv) SNR=??</p>
+
 
 # IDEAW Code
 We will release our code as soon as the paper is accepted.
