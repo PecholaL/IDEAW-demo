@@ -10,7 +10,7 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 
 </p>
 
-![Model Architecture ](assets/IDEAW.png)
+<img src="assets/IDEAW.png" width = 300 />
 <p align="center">The Architecture of IDEAW.</p>
 <p>&nbsp;</p> 
 
@@ -46,13 +46,13 @@ Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) 
 
 ## Waveform Samples
 Waveforms of watermared audios and residual to host audios. The size of the embedded watermark defaults to 46 bits.
-![Model Architecture ](assets/wmd_waveforms/test.png)
+<img src="assets/wmd_waveforms/test.png" width = 200 />
 <p align="center">(i) SNR=??</p>
-![Model Architecture ](assets/wmd_waveforms/test.png)
+<img src="assets/wmd_waveforms/test.png" width = 200 />
 <p align="center">(ii) SNR=??</p>
-![Model Architecture ](assets/wmd_waveforms/test.png)
+<img src="assets/wmd_waveforms/test.png" width = 200 />
 <p align="center">(iii) SNR=??</p>
-![Model Architecture ](assets/wmd_waveforms/test.png)
+<img src="assets/wmd_waveforms/test.png" width = 200 />
 <p align="center">(iv) SNR=??</p>
 
 
