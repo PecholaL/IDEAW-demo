@@ -10,7 +10,7 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 
 </p>
 
- <div style="text-align: center;">
+<div style="text-align: center;">
 <img src="assets/IDEAW.png" width = 800 />
 </div>
 <p align="center">The Architecture of IDEAW.</p>
