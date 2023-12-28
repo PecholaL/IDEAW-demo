@@ -11,14 +11,14 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 </p>
 
 <div style="text-align: center;">
-<img src="assets/IDEAW.png" width = 800 />
+<img src="assets/IDEAW.png" width = 1000 />
 </div>
 <p align="center">The Architecture of IDEAW.</p>
 <p>&nbsp;</p> 
 
 ## Watermarked Audio Samples
 Audio samples are taken from the VCTK corpus and FMA corpus. The capacity of **IDEAW** achieves 46 bits per second (maintaining SNR at about 30 dB).
-* What can a 46-bit watermark accomplish?
+### What can a 46-bit watermark accomplish?
 
 <script>
 function pauseOthers(ele) {
@@ -26,7 +26,7 @@ function pauseOthers(ele) {
 }
 </script>
 
-### Embedding a 7*6 binary figure into audios.
+##### · Embedding a 7*6 binary figure into audios.
 <img src="assets/wm_msg/I.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC=??
 
 <img src="assets/wm_msg/D.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC=??
@@ -37,7 +37,7 @@ function pauseOthers(ele) {
 
 <img src="assets/wm_msg/W.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC=??
 
-### Embedding 5-bit encoded characters into audios. (46 bits watermark -> 9 characters)
+##### · Embedding 5-bit encoded characters into audios. (46 bits watermark -> 9 characters)
 Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) into audio.
 
 "IDEAWOKAY" <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC = ??
