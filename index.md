@@ -1,4 +1,4 @@
-# MAIN-VC
+# IDEAW
 
 ## Abstract
 <p align="justify">
@@ -15,7 +15,7 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 <p>&nbsp;</p> 
 
 ## Watermarked Audio Samples
-Audio samples are taken from the VCTK corpus and FMA corpus. The capacity of **IDEAW** reaches 46 bits per second.
+Audio samples are taken from the VCTK corpus and FMA corpus. The capacity of **IDEAW** achieves 46 bits per second (maintaining SNR at about 30 dB).
 What can a 46-bit watermark accomplish?
 
 <script>
@@ -25,9 +25,15 @@ function pauseOthers(ele) {
 </script>
 
 
-<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
+[wm_msg_1](assets/wm_msg/I.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
+[wm_msg_2](assets/wm_msg/D.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
+[wm_msg_3](assets/wm_msg/E.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
+
+[wm_msg_4](assets/wm_msg/A.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
+
+[wm_msg_5](assets/wm_msg/W.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
 <p>&nbsp;</p> 
 
