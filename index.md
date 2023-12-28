@@ -39,7 +39,7 @@ function pauseOthers(ele) {
 
 <p>&nbsp;</p> 
 
-#### · Embedding 5-bit encoded characters into audios. (46 bits watermark -> 9 characters)
+#### · Embedding characters which are encoded to 5-bit codes into audios. (46 bits watermark -> 9 characters)
 Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) into audio.
 
 "IDEAWOKAY" <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC = ??
