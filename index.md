@@ -24,7 +24,7 @@ function pauseOthers(ele) {
 }
 </script>
 
-
+### Embedding 7*6 binary figure into audios.
 <img src="assets/wm_msg/I.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
 <img src="assets/wm_msg/D.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
@@ -35,8 +35,14 @@ function pauseOthers(ele) {
 
 <img src="assets/wm_msg/W.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
+### Embedding 5-bit encoded characters into audios. (46 bits watermark -> 9 characters)
+Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) into audio.
+SNR = ??, ACC = ??
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio>
+
+
 <p>&nbsp;</p> 
 
 
 ## Waveform Samples
-
+Waveforms of watermared audios and residual to host audios.
