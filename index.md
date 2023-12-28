@@ -25,6 +25,7 @@ function pauseOthers(ele) {
 </script>
 
 
+html <div align="center"> <img src="assets/wm_msg/I.png" width = 40 /> </div>
 ![wm_msg_1](assets/wm_msg/I.png) <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
 ![wm_msg_2](assets/wm_msg/D.png) <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
