@@ -25,15 +25,15 @@ function pauseOthers(ele) {
 </script>
 
 
-[wm_msg_1](assets/wm_msg/I.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
+![wm_msg_1](assets/wm_msg/I.png) <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
-[wm_msg_2](assets/wm_msg/D.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
+![wm_msg_2](assets/wm_msg/D.png) <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
-[wm_msg_3](assets/wm_msg/E.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
+![wm_msg_3](assets/wm_msg/E.png) <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
-[wm_msg_4](assets/wm_msg/A.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
+![wm_msg_4](assets/wm_msg/A.png) <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
-[wm_msg_5](assets/wm_msg/W.png)<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
+![wm_msg_5](assets/wm_msg/W.png) <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> 
 
 <p>&nbsp;</p> 
 
