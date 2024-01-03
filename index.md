@@ -27,22 +27,22 @@ function pauseOthers(ele) {
 </script>
 
 #### · Embedding 7*6 binary figures into audios.
-<img src="assets/wm_msg/I.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC=??
+<img src="assets/wm_msg/I.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/070.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.14, ACC=??
 
-<img src="assets/wm_msg/D.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC=??
+<img src="assets/wm_msg/D.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/554.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.09, ACC=??
 
-<img src="assets/wm_msg/E.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC=??
+<img src="assets/wm_msg/E.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.87, ACC=??
 
-<img src="assets/wm_msg/A.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC=??
+<img src="assets/wm_msg/A.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/022.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=32.72, ACC=??
 
-<img src="assets/wm_msg/W.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC=??
+<img src="assets/wm_msg/W.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/024.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=31.93, ACC=??
 
 <p>&nbsp;</p> 
 
 #### · Embedding characters which are encoded to 5-bit codes into audios. (46 bits watermark -> 9 characters)
 Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) into audio.
 
-"IDEAWOKAY" <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/p227_003.mp3" type="audio/mpeg"></audio> SNR = ??, ACC = ??
+"IDEAWOKAY" <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/331.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.54, ACC=1(230/230)
 
 
 <p>&nbsp;</p> 
