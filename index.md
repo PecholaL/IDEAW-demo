@@ -18,6 +18,7 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 
 ## Watermarked Audio&Waveform Samples
 Audio samples are taken from the VCTK corpus and FMA corpus. The capacity of **IDEAW** achieves 46 bits per second (maintaining SNR at about 30 dB).
+The red and dark yellow waveform in the figures stand for watermarked audio and host audio respectively (500-point details of watermarked audio segments).
 ### What can 46-bit watermarks accomplish?
 
 <script>
@@ -27,54 +28,52 @@ function pauseOthers(ele) {
 </script>
 
 #### · Embedding 7*6 binary figures into audios.
-<img src="assets/wm_msg/I.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/070.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.14, ACC=??
+<img src="assets/wm_msg/I.png" width = 200 />
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/070.png" width = 500 />
 </div>
+ <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/070.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.14, ACC=1(230/230)
 
-<img src="assets/wm_msg/D.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/554.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.09, ACC=??
+
+<img src="assets/wm_msg/D.png" width = 200 />
+<div style="text-align: center;">
+<img src="assets/wmd_waveforms/554.png" width = 500 />
+</div>
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/554.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.09, ACC=0.9913(228/230)
 
 
-<img src="assets/wm_msg/E.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.87, ACC=??
+<img src="assets/wm_msg/E.png" width = 200 />
+<div style="text-align: center;">
+<img src="assets/wmd_waveforms/012.png" width = 500 />
+</div>
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.87, ACC=0.9957(229/230)
 
-<img src="assets/wm_msg/A.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/022.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=32.72, ACC=??
+<img src="assets/wm_msg/A.png" width = 200 />
+<div style="text-align: center;">
+<img src="assets/wmd_waveforms/022.png" width = 500 />
+</div>
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/022.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=30.12, ACC=1(230/230)
 
-<img src="assets/wm_msg/W.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/024.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=31.93, ACC=??
+<img src="assets/wm_msg/W.png" width = 200 />
+<div style="text-align: center;">
+<img src="assets/wmd_waveforms/024.png" width = 500 />
+</div>
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/024.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=31.93, ACC=1(230/230)
 
 <p>&nbsp;</p> 
 
 #### · Embedding characters which are encoded to 5-bit codes into audios. (46 bits watermark -> 9 characters)
 Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) into audio.
 
-"IDEAWOKAY" <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/331.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.54, ACC=1(230/230)
+"IDEAWOKAY"
+<div style="text-align: center;">
+<img src="assets/wmd_waveforms/331.png" width = 500 />
+</div>
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/331.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=34.54, ACC=0.9913(228/230)
 
 
 <p>&nbsp;</p> 
 
 
-## Waveform Samples
-Waveforms of watermared audios and residual to host audios. The size of the embedded watermark defaults to 46 bits.
-
-<div style="text-align: center;">
-<img src="assets/wmd_waveforms/test.png" width = 500 />
-</div>
-<p align="center">(i) SNR=??</p>
-
-<div style="text-align: center;">
-<img src="assets/wmd_waveforms/test.png" width = 500 />
-</div>
-<p align="center">(ii) SNR=??</p>
-
-<div style="text-align: center;">
-<img src="assets/wmd_waveforms/test.png" width = 500 />
-</div>
-<p align="center">(iii) SNR=??</p>
-
-<div style="text-align: center;">
-<img src="assets/wmd_waveforms/test.png" width = 500 />
-</div>
-<p align="center">(iv) SNR=??</p>
-
-
 # IDEAW Code
-We will release our code as soon as the paper is accepted.
+We will release our code as soon as the paper is accepted. 🍹
