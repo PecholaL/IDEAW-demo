@@ -30,7 +30,7 @@ function pauseOthers(ele) {
 #### · Embedding 7*6 binary figures into audios.
 <img src="assets/wm_msg/I.png" width = 200 />
 <div style="text-align: center;">
-<img src="assets/wmd_waveforms/070.png" width = 500 />
+<img src="assets/wmd_waveforms/070_1.png" width = 500 />
 </div>
  <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/070.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.14, ACC=1(230/230)
 
