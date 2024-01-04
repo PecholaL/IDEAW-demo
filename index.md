@@ -16,7 +16,7 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 <p align="center">The Architecture of IDEAW.</p>
 <p>&nbsp;</p> 
 
-## Watermarked Audio Samples
+## Watermarked Audio&Waveform Samples
 Audio samples are taken from the VCTK corpus and FMA corpus. The capacity of **IDEAW** achieves 46 bits per second (maintaining SNR at about 30 dB).
 ### What can 46-bit watermarks accomplish?
 
@@ -28,8 +28,12 @@ function pauseOthers(ele) {
 
 #### · Embedding 7*6 binary figures into audios.
 <img src="assets/wm_msg/I.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/070.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.14, ACC=??
+<div style="text-align: center;">
+<img src="assets/wmd_waveforms/070.png" width = 500 />
+</div>
 
 <img src="assets/wm_msg/D.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/554.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.09, ACC=??
+
 
 <img src="assets/wm_msg/E.png" width = 200 /> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.87, ACC=??
 
