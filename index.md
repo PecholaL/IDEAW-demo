@@ -26,51 +26,60 @@ function pauseOthers(ele) {
     $("audio").not(ele).each(function (index, audio) {audio.pause();});
 }
 </script>
+<p>&nbsp;</p> 
 
 #### · Embedding 7*6 binary figures into audios.
+##### I
 <img src="assets/wm_msg/I.png" width = 200 />
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/070_1.png" width = 500 />
 </div>
  <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/070.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.14, ACC=1(230/230)
+<p>&nbsp;</p> 
 
-
+##### D
 <img src="assets/wm_msg/D.png" width = 200 />
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/554.png" width = 500 />
 </div>
 <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/554.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.09, ACC=0.9913(228/230)
+<p>&nbsp;</p> 
 
-
+##### E
 <img src="assets/wm_msg/E.png" width = 200 />
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/012.png" width = 500 />
 </div>
 <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.87, ACC=0.9957(229/230)
+<p>&nbsp;</p> 
 
+##### A
 <img src="assets/wm_msg/A.png" width = 200 />
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/022.png" width = 500 />
 </div>
 <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/022.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=30.12, ACC=1(230/230)
+<p>&nbsp;</p> 
 
+##### W
 <img src="assets/wm_msg/W.png" width = 200 />
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/024.png" width = 500 />
 </div>
 <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/024.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=31.93, ACC=1(230/230)
+<p>&nbsp;</p> 
 
 <p>&nbsp;</p> 
 
 #### · Embedding characters which are encoded to 5-bit codes into audios. (46 bits watermark -> 9 characters)
 Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) into audio.
 
-"IDEAWOKAY"
+##### "IDEAWOKAY"
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/331.png" width = 500 />
 </div>
 <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/331.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=34.54, ACC=0.9913(228/230)
-
+<p>&nbsp;</p>
 
 <p>&nbsp;</p> 
 
