@@ -19,6 +19,9 @@ Audio watermarking embeds messages into the audio and accurately extracts the wa
 ## Watermarked Audio&Waveform Samples
 Audio samples are taken from the VCTK corpus and FMA corpus. The capacity of **IDEAW** achieves 46 bits per second (maintaining SNR at above 30 dB).
 The red and dark yellow waveform in the figures stand for watermarked audio and host audio respectively (500-point details of watermarked audio segments).
+
+Audio samples are randomly selected from FMA dataset (musica) and VCTK dataset (speech).
+
 ### What can 46-bit watermarks accomplish?
 
 <script>
