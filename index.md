@@ -81,7 +81,7 @@ Embedding "IDEAWOKAY" (01000-00100-00101-00001-10111-01111-01011-00001-11001-0) 
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/331.png" width = 500 />
 </div>
-<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/331.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=34.54, ACC=0.9913(228/230)
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/331.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=34.54, ACC=0.9957(229/230)
 <p>&nbsp;</p>
 
 <p>&nbsp;</p> 
