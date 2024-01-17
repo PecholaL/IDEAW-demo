@@ -45,7 +45,7 @@ function pauseOthers(ele) {
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/554.png" width = 500 />
 </div>
-<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/554.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.09, ACC=0.9913(228/230)
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/554.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=36.29, ACC=0.9913(228/230)
 <p>&nbsp;</p> 
 
 ##### E
@@ -53,7 +53,7 @@ function pauseOthers(ele) {
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/012.png" width = 500 />
 </div>
-<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.87, ACC=0.9957(229/230)
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=34.87, ACC=0.9957(229/230)
 <p>&nbsp;</p> 
 
 ##### A
@@ -61,7 +61,7 @@ function pauseOthers(ele) {
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/022.png" width = 500 />
 </div>
-<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/022.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=30.12, ACC=1(230/230)
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/022.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=33.12, ACC=1(230/230)
 <p>&nbsp;</p> 
 
 ##### W
@@ -69,7 +69,7 @@ function pauseOthers(ele) {
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/024.png" width = 500 />
 </div>
-<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/024.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=31.93, ACC=1(230/230)
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/024.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=34.93, ACC=1(230/230)
 <p>&nbsp;</p> 
 
 <p>&nbsp;</p> 
