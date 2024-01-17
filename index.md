@@ -53,7 +53,7 @@ function pauseOthers(ele) {
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/012.png" width = 500 />
 </div>
-<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=34.87, ACC=0.9957(229/230)
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/012.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=35.87, ACC=0.9957(229/230)
 <p>&nbsp;</p> 
 
 ##### A
@@ -69,7 +69,7 @@ function pauseOthers(ele) {
 <div style="text-align: center;">
 <img src="assets/wmd_waveforms/024.png" width = 500 />
 </div>
-<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/024.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=36.33, ACC=1(230/230)
+<audio controls id="player" onplay="pauseOthers(this);"><source src="assets/wmd_audios/024.mp3" type="audio/mpeg"></audio> embedded 5 times, SNR=32.43, ACC=1(230/230)
 <p>&nbsp;</p> 
 
 <p>&nbsp;</p> 
